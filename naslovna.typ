@@ -29,7 +29,7 @@
 #v(1cm)
 
 #if naslov != "Шаблон и упутство за писање завршних радова" {
-    align(center, text("ЗАВРШНИ РАД", size: 20pt))
+    align(center, text("ДИПЛОМСКИ РАД", size: 20pt))
     align(center, text(stepen, size: 20pt))
 }
 

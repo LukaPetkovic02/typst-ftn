@@ -1,12 +1,12 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let naslov = "Симулација двоструког клатна и анализа перформанси паралелних имплементација"
+#let autor = "Лука Петковић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "Double pendulum simulation with performance comparison of parallel implementations "
+#let autor_eng = "Luka Petković"
 
-#let indeks = "Уписати индекс"
+#let indeks = "SV 16/2021"
 
 // Име и презиме ментора
 #let mentor = "Игор Дејановић"
@@ -16,8 +16,8 @@
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
-//#let stepen = "Основне академске студије"
+//#let stepen = "Мастер академске студије"
+#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
 
@@ -27,18 +27,21 @@
 // Такође унети ручно и број прилога.
 #let broj_priloga = 2
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Двоструко клатно, паралелна обрада, Python, Rust, Go"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     Рад представља симулацију двоструког клатна и анализу перформанси паралелних имплементација. 
+     Коришћена је метода Рунге–Кута четвртог реда за нумеричко решавање једначина. 
+     Имплементације у Python, Rust и Go језицима упоређене су по времену извршавања, 
+     убрзању и скалабилности, уз анализу предности сваког приступа.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "double pendulum, parallel processing, Python, Rust, Go"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     This paper presents a simulation of the double pendulum and a performance comparison 
+     of parallel implementations. The fourth-order Runge–Kutta method was used for numerical 
+     integration. Implementations in Python, Rust, and Go were evaluated by execution time, 
+     speedup, and scalability, highlighting each language’s advantages.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
