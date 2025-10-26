@@ -69,6 +69,9 @@
 // TODO: Овде укључујете поглавља
 #include "poglavlja/1-uvod.typ"
 #include "poglavlja/2-teorijske-osnove.typ"
+#include "poglavlja/3-dizajn-sistema.typ"
+#include "poglavlja/4-implementacija.typ"
+#include "poglavlja/5-analiza-rezultata.typ"
 #include "poglavlja/7-zakljucak.typ"
 
 
@@ -114,7 +117,9 @@
 
 #include "biografija.typ"
 
+#show "Available at:": "Доступно на "
 #bibliography(title: [Литература], "literatura.bib")
+#checkbib()
 
 // Потребне исправке и дораде. У тексту користити са
 // #todo[Коментар шта треба урадити]
