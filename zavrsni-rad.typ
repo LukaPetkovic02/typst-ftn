@@ -72,6 +72,7 @@
 #include "poglavlja/3-dizajn-sistema.typ"
 #include "poglavlja/4-implementacija.typ"
 #include "poglavlja/5-analiza-rezultata.typ"
+#include "poglavlja/6-vizuelizacija.typ"
 #include "poglavlja/7-zakljucak.typ"
 
 
