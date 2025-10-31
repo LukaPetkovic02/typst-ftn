@@ -4,7 +4,6 @@
     let chapters = query(heading.where(level: 1, outlined: true))
         .filter(it => not it.numbering == none).len()
     let pages = counter(page).final().first()
-    
     let bibtex_string = read("literatura.bib")
     let bib = load-bibliography(bibtex_string)
     let citations = bib.len()
