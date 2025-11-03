@@ -40,19 +40,26 @@
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+    Анализирати нумеричке методе за решавање физичког система двоструког клатна.
+    Дизајнирати и имплементирати систем за симулацију двоструког клатна у више
+    програмских језика са акцентом на паралелно извршавање. Обухватити програмске
+    језике Пајтон, Го и Раст. Дискутовати процес развоја и резултате симулације на
+    овим програмских језицима.
+
+    При изради користити препоручену праксу из области софтверског инжењерства.
+    Детаљно документовати решење.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
+#let datum_odbrane = "06.11.2025"
+#let komisija_predsednik = "Марко Марковић"
 #let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
+#let komisija_clan = "Синиша Николић"
 #let komisija_clan_zvanje = "доцент"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
+#let komisija_predsednik_eng = "Marko Marković"
+#let komisija_clan_eng = "Siniša Nikolić"
 #let mentor_eng = "Igor Dejanović"
 
 
